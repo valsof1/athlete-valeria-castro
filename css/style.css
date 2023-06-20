@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+body{
+	background-color:#252525;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	color:#FFFFFF;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+hero h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 300px;
+	font-weight: bolder;
+	color:#FFFFFF;
+}
+
+
+.carousel-h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 80px;
+	font-weight: bolder;
+	margin-left: auto;
+	text-align: left;
+	color:#FFFFFF;
+}
+.section-cta{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: auto;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+h2{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+	color:#FFFFFF;
+}
+
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
